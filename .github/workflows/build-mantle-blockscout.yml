@@ -22,7 +22,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
         with:
-          repository: 
+          repository: mantlenetworkio/blockscout
           ref: ${{ github.event.inputs.ref }}
 
       - name: Set up QEMU
